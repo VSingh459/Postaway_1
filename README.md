@@ -20,3 +20,4 @@ It allows users to sign up, create posts with images, like and comment on posts 
 
 ---
 
+<img width="960" alt="P2" src="https://github.com/user-attachments/assets/b4fc2fcc-c99e-4c5c-a3fb-1e2a38c8b320" />
