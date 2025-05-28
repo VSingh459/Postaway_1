@@ -1,0 +1,219 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "version": "1.0.0",
+      "title": "PostAway API",
+      "description": "API documentation for the PostAway Social Networking Application."
+    },
+    "host": "127.0.0.1:3300",
+    "basePath": "/api",
+    "schemes": [
+      "http"
+    ],
+    "securityDefinitions": {
+      "apiKeyAuth": {
+        "type": "apiKey",
+        "name": "Authorization",
+        "in": "header",
+        "description": "JWT Authorization header using the apiKey scheme. Example: \"Authorization: apiKey {token}\""
+      }
+    },
+    "paths": {
+      "/users/signup": {
+        "post": {
+          "summary": "Sign up a new user",
+          "tags": ["Users"],
+          "parameters": [
+            {
+              "name": "body",
+              "in": "body",
+              "required": true,
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "name": { "type": "string" },
+                  "email": { "type": "string" },
+                  "password": { "type": "string" }
+                },
+                "required": ["name", "email", "password"]
+              }
+            }
+          ],
+          "responses": {
+            "201": { "description": "User created successfully." },
+            "400": { "description": "Bad request." }
+          }
+        }
+      },
+      "/users/signin": {
+        "post": {
+          "summary": "Sign in an existing user",
+          "tags": ["Users"],
+          "parameters": [
+            {
+              "name": "body",
+              "in": "body",
+              "required": true,
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "email": { "type": "string" },
+                  "password": { "type": "string" }
+                },
+                "required": ["email", "password"]
+              }
+            }
+          ],
+          "responses": {
+            "200": { "description": "User authenticated successfully. Returns a JWT token." },
+            "401": { "description": "Incorrect password." },
+            "400": { "description": "Email/account does not exist." }
+          }
+        }
+      },
+      "/posts/add": {
+        "post": {
+          "summary": "Add a new post",
+          "tags": ["Posts"],
+          "security": [
+            { "apiKeyAuth": [] }
+          ],
+          "parameters": [
+            {
+              "name": "caption",
+              "in": "formData",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "imageUrl",
+              "in": "formData",
+              "type": "file",
+              "required": true
+            }
+          ],
+          "responses": {
+            "201": { "description": "Post created successfully." },
+            "401": { "description": "Unauthorized. Invalid or missing token." },
+            "400": { "description": "Bad request." }
+          }
+        }
+      },
+      "/posts/userId": {
+        "get": {
+          "summary": "Get posts by user ID",
+          "tags": ["Posts"],
+          "security": [
+            { "apiKeyAuth": [] }
+          ],
+          "responses": {
+            "200": { "description": "List of posts retrieved successfully." },
+            "401": { "description": "Unauthorized. Invalid or missing token." }
+          }
+        }
+      },
+      "/posts/{postId}": {
+        "get": {
+          "summary": "Get a specific post by ID",
+          "tags": ["Posts"],
+          "security": [
+            { "apiKeyAuth": [] }
+          ],
+          "parameters": [
+            {
+              "name": "postId",
+              "in": "path",
+              "type": "integer",
+              "required": true
+            }
+          ],
+          "responses": {
+            "200": { "description": "Post retrieved successfully." },
+            "401": { "description": "Unauthorized. Invalid or missing token." },
+            "404": { "description": "Post not found." }
+          }
+        }
+      },
+      "/comments/add": {
+        "post": {
+          "summary": "Add a comment to a post",
+          "tags": ["Comments"],
+          "security": [
+            { "apiKeyAuth": [] }
+          ],
+          "parameters": [
+            {
+              "name": "postId",
+              "in": "query",
+              "type": "integer",
+              "required": true
+            },
+            {
+              "name": "comment",
+              "in": "body",
+              "required": true,
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "comment": { "type": "string" }
+                },
+                "required": ["comment"]
+              }
+            }
+          ],
+          "responses": {
+            "201": { "description": "Comment added successfully." },
+            "401": { "description": "Unauthorized. Invalid or missing token." },
+            "400": { "description": "Invalid postId." }
+          }
+        }
+      },
+      "/likes/add": {
+        "post": {
+          "summary": "Like a post",
+          "tags": ["Likes"],
+          "security": [
+            { "apiKeyAuth": [] }
+          ],
+          "parameters": [
+            {
+              "name": "postId",
+              "in": "query",
+              "type": "integer",
+              "required": true
+            }
+          ],
+          "responses": {
+            "201": { "description": "Like added successfully." },
+            "401": { "description": "Unauthorized. Invalid or missing token." },
+            "400": { "description": "Post does not exist or user already liked the post." }
+          }
+        }
+      },
+      "/likes/delete": {
+        "delete": {
+          "summary": "Remove a like",
+          "tags": ["Likes"],
+          "security": [
+            { "apiKeyAuth": [] }
+          ],
+          "parameters": [
+            {
+              "name": "likeId",
+              "in": "query",
+              "type": "integer",
+              "required": true
+            }
+          ],
+          "responses": {
+            "200": { "description": "Like removed successfully." },
+            "401": { "description": "Unauthorized. Invalid or missing token." },
+            "400": { "description": "Like does not exist or user mismatch." }
+          }
+        }
+      }
+    }
+  }
+  
+  
+  

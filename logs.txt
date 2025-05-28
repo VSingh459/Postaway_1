@@ -1,0 +1,111 @@
+{"level":"info","message":"/api/users/signup - {\"name\":\"John Randall\",\"email\":\"joeR@yahoo.com\",\"password\":\"j12j34\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"John Randall\",\"email\":\"joeR@yahoo.com\",\"password\":\"j12j34\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"John Randall\",\"email\":\"joeR@yahoo.com\",\"password\":\"j12j34\"}","service":"request-logging"}
+{"level":"info","message":"/api/posts/add - {}","service":"request-logging"}
+{"level":"info","message":"/api/posts/add - {}","service":"request-logging"}
+{"level":"info","message":"/api/posts/delete?postId=2 - {}","service":"request-logging"}
+{"level":"info","message":"/api/posts/add - {}","service":"request-logging"}
+{"level":"info","message":"/api/comments/add?postId=1 - {\"comment\":\"GGG !!!\"}","service":"request-logging"}
+{"level":"info","message":"/api/comments/add?postId=1 - {\"comment\":\"GGG !!!\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"John Randall\",\"email\":\"joeR@yahoo.com\",\"password\":\"j12j34\"}","service":"request-logging"}
+{"level":"info","message":"/api/posts/add - {}","service":"request-logging"}
+{"level":"info","message":"/api/posts/add - {}","service":"request-logging"}
+{"level":"info","message":"/api/comments/add?postId=1 - {\"comment\":\"GGG !!!\"}","service":"request-logging"}
+{"level":"info","message":"/api/posts/delete?postId=2 - {}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"Jason Hilby\",\"email\":\"jjj@gmail.com\",\"password\":\"jhjh123\"}","service":"request-logging"}
+{"level":"info","message":"/api/comments/add?postId=1 - {\"comment\":\"GGG !!!\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"John Randall\",\"email\":\"joeR@yahoo.com\",\"password\":\"j12j34\"}","service":"request-logging"}
+{"level":"info","message":"/api/posts/add - {}","service":"request-logging"}
+{"level":"info","message":"/api/posts/add - {}","service":"request-logging"}
+{"level":"info","message":"/api/posts/delete?postId=2 - {}","service":"request-logging"}
+{"level":"info","message":"/api/comments/add?postId=1 - {\"comment\":\"GGG !!!\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"John Randall\",\"email\":\"joeR@yahoo.com\",\"password\":\"j12j34\"}","service":"request-logging"}
+{"level":"info","message":"/api/posts/add - {}","service":"request-logging"}
+{"level":"info","message":"/api/posts/add - {}","service":"request-logging"}
+{"level":"info","message":"/api/posts/delete?postId=2 - {}","service":"request-logging"}
+{"level":"info","message":"/api/comments/add?postId=1 - {\"comment\":\"GGG !!!\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"John Randall\",\"email\":\"joeR@yahoo.com\",\"password\":\"j12j34\"}","service":"request-logging"}
+{"level":"info","message":"/api/posts/add - {}","service":"request-logging"}
+{"level":"info","message":"/api/posts/add - {}","service":"request-logging"}
+{"level":"info","message":"/api/posts/delete?postId=2 - {}","service":"request-logging"}
+{"level":"info","message":"/api/comments/add?postId=1 - {\"comment\":\"GGG !!!\"}","service":"request-logging"}
+{"level":"info","message":"/api/posts/userId - {}","service":"request-logging"}
+{"level":"info","message":"/api/posts/1 - {}","service":"request-logging"}
+{"level":"info","message":"/api/posts/1 - {}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"John Randall\",\"email\":\"joeR@yahoo.com\",\"password\":\"j12j34\"}","service":"request-logging"}
+{"level":"info","message":"/api/posts/add - {}","service":"request-logging"}
+{"level":"info","message":"/api/posts/1 - {}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"John Randall\",\"email\":\"joeR@yahoo.com\",\"password\":\"j12j34\"}","service":"request-logging"}
+{"level":"info","message":"/api/posts/add - {}","service":"request-logging"}
+{"level":"info","message":"/api/posts/add - {}","service":"request-logging"}
+{"level":"info","message":"/api/posts/1 - {}","service":"request-logging"}
+{"level":"info","message":"/api/posts/update?postId=2 - {}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"John Randall\",\"email\":\"joeR@yahoo.com\",\"password\":\"j12j34\"}","service":"request-logging"}
+{"level":"info","message":"/api/posts/add - {}","service":"request-logging"}
+{"level":"info","message":"/api/posts/add - {}","service":"request-logging"}
+{"level":"info","message":"/api/posts/delete?postId=2 - {}","service":"request-logging"}
+{"level":"info","message":"/api/posts/add - {}","service":"request-logging"}
+{"level":"info","message":"/api/comments/add?postId=1 - {\"comment\":\"GGG !!!\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"Jason Hilby\",\"email\":\"jjj@gmail.com\",\"password\":\"jhjh123\"}","service":"request-logging"}
+{"level":"info","message":"/api/posts/add?=& - {}","service":"request-logging"}
+{"level":"info","message":"/api/comments/add?postId=1 - {\"comment\":\"GGG !!!\"}","service":"request-logging"}
+{"level":"info","message":"/api/comments/retrieve?postId=1 - {}","service":"request-logging"}
+{"level":"info","message":"/api/comments/delete?commentId=1 - {}","service":"request-logging"}
+{"level":"info","message":"/api/comments/retrieve?postId=1 - {}","service":"request-logging"}
+{"level":"info","message":"/api/comments/delete?commentId=1 - {}","service":"request-logging"}
+{"level":"info","message":"/api/comments/retrieve?postId=1 - {}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"John Randall\",\"email\":\"joeR@yahoo.com\",\"password\":\"j12j34\"}","service":"request-logging"}
+{"level":"info","message":"/api/posts/add - {}","service":"request-logging"}
+{"level":"info","message":"/api/posts/add - {}","service":"request-logging"}
+{"level":"info","message":"/api/comments/add?postId=1 - {\"comment\":\"GGG !!!\"}","service":"request-logging"}
+{"level":"info","message":"/api/comments/add?postId=1 - {\"comment\":\"GGG !!!\"}","service":"request-logging"}
+{"level":"info","message":"/api/comments/add?postId=1 - {\"comment\":\"GGG !!!\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"Jason Hilby\",\"email\":\"jjj@gmail.com\",\"password\":\"jhjh123\"}","service":"request-logging"}
+{"level":"info","message":"/api/comments/add?postId=1 - {\"comment\":\"GGG !!!\"}","service":"request-logging"}
+{"level":"info","message":"/api/comments/retrieve?postId=1 - {}","service":"request-logging"}
+{"level":"info","message":"/api/comments/delete?commentId=1 - {}","service":"request-logging"}
+{"level":"info","message":"/api/comments/retrieve?postId=1 - {}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"John Randall\",\"email\":\"joeR@yahoo.com\",\"password\":\"j12j34\"}","service":"request-logging"}
+{"level":"info","message":"/api/posts/add - {}","service":"request-logging"}
+{"level":"info","message":"/api/comments/add?postId=1 - {\"comment\":\"GGG !!!\"}","service":"request-logging"}
+{"level":"info","message":"/api/comments/delete?commentId=1 - {}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"John Randall\",\"email\":\"joeR@yahoo.com\",\"password\":\"j12j34\"}","service":"request-logging"}
+{"level":"info","message":"/api/comments/add?postId=1 - {\"comment\":\"GGG !!!\"}","service":"request-logging"}
+{"level":"info","message":"/api/comments/delete?commentId=1 - {}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"John Randall\",\"email\":\"joeR@yahoo.com\",\"password\":\"j12j34\"}","service":"request-logging"}
+{"level":"info","message":"/api/comments/add?postId=1 - {\"comment\":\"GGG !!!\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"Jason Hilby\",\"email\":\"jjj@gmail.com\",\"password\":\"jhjh123\"}","service":"request-logging"}
+{"level":"info","message":"/api/comments/add?postId=1 - {\"comment\":\"GGG !!!\"}","service":"request-logging"}
+{"level":"info","message":"/api/comments/delete?commentId=2 - {}","service":"request-logging"}
+{"level":"info","message":"/api/comments/delete?commentId=2 - {}","service":"request-logging"}
+{"level":"info","message":"/api/comments/delete?commentId=2 - {}","service":"request-logging"}
+{"level":"info","message":"/api/comments/delete?commentId=2 - {}","service":"request-logging"}
+{"level":"info","message":"/api/comments/delete?commentId=2 - {}","service":"request-logging"}
+{"level":"info","message":"/api/comments/delete?commentId=1 - {}","service":"request-logging"}
+{"level":"info","message":"/api/comments/delete?commentId=1 - {}","service":"request-logging"}
+{"level":"info","message":"/api/comments/delete?commentId=1 - {}","service":"request-logging"}
+{"level":"info","message":"/api/comments/delete?commentId=1 - {}","service":"request-logging"}
+{"level":"info","message":"/api/comments/add?postId=1 - {\"comment\":\"GGG !!!\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"Jason Hilby\",\"email\":\"jjj@gmail.com\",\"password\":\"jhjh123\"}","service":"request-logging"}
+{"level":"info","message":"/api/comments/add?postId=1 - {\"comment\":\"GGG !!!\"}","service":"request-logging"}
+{"level":"info","message":"/api/comments/add?postId=1 - {\"comment\":\"GGG !!!\"}","service":"request-logging"}
+{"level":"info","message":"/api/comments/retrieve?postId=1 - {}","service":"request-logging"}
+{"level":"info","message":"/api/comments/delete?commentId=2 - {}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"John Randall\",\"email\":\"joeR@yahoo.com\",\"password\":\"j12j34\"}","service":"request-logging"}
+{"level":"info","message":"/api/posts/add - {}","service":"request-logging"}
+{"level":"info","message":"/api/comments/add?postId=1 - {\"comment\":\"GGG !!!\"}","service":"request-logging"}
+{"level":"info","message":"/api/comments/add?postId=1 - {\"comment\":\"GGG !!!\"}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"Jason Hilby\",\"email\":\"jjj@gmail.com\",\"password\":\"jhjh123\"}","service":"request-logging"}
+{"level":"info","message":"/api/comments/add?postId=1 - {\"comment\":\"GGG !!!\"}","service":"request-logging"}
+{"level":"info","message":"/api/comments/add?postId=1 - {\"comment\":\"GGG !!!\"}","service":"request-logging"}
+{"level":"info","message":"/api/comments/delete?commentId=3 - {}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"John Randall\",\"email\":\"joeR@yahoo.com\",\"password\":\"j12j34\"}","service":"request-logging"}
+{"level":"info","message":"/api/posts/add - {}","service":"request-logging"}
+{"level":"info","message":"/api/posts/add - {}","service":"request-logging"}
+{"level":"info","message":"/api/likes/add?postId=1 - {}","service":"request-logging"}
+{"level":"info","message":"/api/users/signup - {\"name\":\"Jason Hilby\",\"email\":\"jjj@gmail.com\",\"password\":\"jhjh123\"}","service":"request-logging"}
+{"level":"info","message":"/api/likes/add?postId=1 - {}","service":"request-logging"}
+{"level":"info","message":"/api/likes/total?postId=1 - {}","service":"request-logging"}
+{"level":"info","message":"/api/likes/total?postId=1 - {}","service":"request-logging"}
+{"level":"info","message":"/api/likes/delete?likeId=2 - {}","service":"request-logging"}
+{"level":"info","message":"/api/likes/total?postId=1 - {}","service":"request-logging"}
